@@ -1,0 +1,11 @@
+.todo {
+    margin: 10px;
+    transition: all 150ms;
+}
+
+.todoCompleted {
+    transition: all 150ms;
+    margin: 10px;
+    color: red;
+    text-decoration: line-through;
+}
