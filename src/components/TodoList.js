@@ -1,14 +1,17 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Todo from './Todo';
-
 const TodoList = props => {
+    
+    useEffect(() => {
+        console.log(props.todoList)
+    }, [])
 
     const handleClick = () => {
        props.handleClear();
     }
 
     return (
-        <div>
+        <div className='todoList'>
             {props.todoList.map((todo, index) => (
                 <Todo key={index} handleCompleted={props.handleCompleted} todo={todo} />
             ))}

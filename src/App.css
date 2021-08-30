@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(217, 223, 221);
+}
+
+.container {
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 25px;
+    width: 50vw; height: auto;
+    margin: 0 auto;
+}
+
+.container h2{
+    margin-top:0;
+}
+
+input {
+    margin: 5px;
+}
+
+.todoList h2{
+    cursor: pointer;
+}
