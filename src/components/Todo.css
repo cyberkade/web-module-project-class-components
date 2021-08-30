@@ -1,0 +1,9 @@
+.todo {
+    margin: 10px;
+}
+
+.todoCompleted {
+    margin: 10px;
+    color: red;
+    text-decoration: line-through;
+}
